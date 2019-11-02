@@ -1,0 +1,24 @@
+.grid {
+	display: table;
+	border: 5px solid black;
+	border-spacing: 1px;
+	background: black;
+}
+
+.row {
+	display: table-row;
+}
+
+.cell {
+	display: table-cell;
+	height: 35px;
+	width: 35px;
+	background: white;
+}
+
+.pen {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	border: 2px solid black;
+}
